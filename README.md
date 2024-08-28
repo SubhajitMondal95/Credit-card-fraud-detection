@@ -1,6 +1,6 @@
 # Credit-card-fraud-detection
 
-n this code, a CPT is created for each variable in the network:
+In this code, a CPT is created for each variable in the network:
 ● T (Travel): This CPT specifies the probability of a customer traveling (0.05) or not traveling (0.95).
 ● OD (Owns Device): This CPT specifies the probability of a customer owning a device (0.7) or not owning a device (0.3).
 ● FP (Foreign Purchase): This CPT defines the probability of a foreign purchase given whether the customer traveled or not. (e.g., 0.88 probability of foreign purchase if traveled, 0.12 probability if not)
